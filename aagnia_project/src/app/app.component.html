@@ -1,0 +1,127 @@
+<div class="container-fluid">
+  <div class="pre-head">
+    <div class="row">
+      <div class="col-8">
+        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50"
+          style="border:1px solid white; border-radius:50%; background:#00b9ff; color:white; padding: 5px;"
+          fill="currentColor" class="bi bi-lightning-charge-fill charge m-2" viewBox="0 0 16 16">
+          <path
+            d="M11.251.068a.5.5 0 0 1 .227.58L9.677 6.5H13a.5.5 0 0 1 .364.843l-8 8.5a.5.5 0 0 1-.842-.49L6.323 9.5H3a.5.5 0 0 1-.364-.843l8-8.5a.5.5 0 0 1 .615-.09z" />
+        </svg>
+      </div>
+      <div class="col-4">
+        <div class="row">
+          <div class="col-2">
+            <i class="bi bi-bell-fill"></i>
+          </div>
+          <div class="col-8">
+            <div class="card mb-3" style="border: none;margin: auto;">
+              <div class="row ">
+                <div class=" col-4 text-end">
+                  <img src="../../assets/images/profile1.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-8 text-start">
+                  <h5 class="card-title text-secondary">Nithin Josh</h5>
+                  <p class="card-text text-secondary">welcome</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-2 text-start">
+            <i class="bi bi-gear-fill mb-2"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="header">
+    <div class="row head-row justify-content-center">
+      <div class="col-3">
+        <div class="card bg-primary mb-3">
+          <div class="row new" routerLink='leads'>
+            <div class="col-2">
+              <div class="book">
+                <i class="bi bi-journal-bookmark-fill"></i>
+              </div>
+            </div>
+            <div class="col-10">
+              <div class="card-body">
+                <h5 class="card-title">Leads</h5>
+                <p class="card-text">12 leads are pending</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="card mb-1">
+          <div class="row">
+            <div class="col-2">
+              <div class="book">
+                <i class="bi bi-building"></i>
+              </div>
+            </div>
+            <div class="col-10">
+              <div class="card-body">
+                <h5 class="card-title">Accounts</h5>
+                <p class="card-text ">10 active accounts</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="card mb-1">
+          <div class="row">
+            <div class="col-2">
+              <div class="book">
+                <i class="bi bi-person-lines-fill"></i>
+              </div>
+            </div>
+            <div class="col-10">
+              <div class="card-body">
+                <h5 class="card-title">Contacts</h5>
+                <p class="card-text ">10 active users</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card mb-3">
+          <div class="row ">
+            <div class="col-2">
+              <div class="book">
+                <i class="bi bi-clock"></i>
+              </div>
+            </div>
+            <div class="col-10">
+              <div class="card-body">
+                <h5 class="card-title">Tasks</h5>
+                <p class="card-text">25 tasks are pending</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section">
+    <div class="toasts">
+      <div class="row">
+        <ul class="nav nav-tabs">
+          <li class="nav-item dark">
+            <a class="nav-link text-dark px-3" routerLink='all-leads'>All Leads<i class="bi bi-x mx-3 pb-1"></i></a>
+          </li>
+          <li class="nav-item leads">
+            <a class="nav-link text-dark" routerLink='add-new-list'>Add new lead<i class="bi bi-x "></i></a>
+          </li>
+          <li class="nav-item leads">
+            <a class="nav-link text-dark" routerLink='edit-lead-aag'>Edit lead-Aag<i class="bi bi-x"></i></a>
+          </li>
+        </ul>
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+  </div>
+</div> 

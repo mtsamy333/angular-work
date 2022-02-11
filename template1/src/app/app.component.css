@@ -1,0 +1,179 @@
+a{
+    font-size: 20px;
+}
+footer{
+    background-color: #e3d105;
+}
+footer img{
+    height: 300px;
+    width: 600px;
+    border: 1px solid #d8b00f;
+    margin: 10px 20px;
+}
+footer input{
+    margin: 15px 20px;
+    padding: 6px 10px;
+}
+footer textarea{
+    margin: 20px 20px;
+    padding: 20px;
+}
+.foot-img img{
+    height: 70px;
+    width: 200px;
+    margin: 20px 0;
+    border: none;
+}
+.contact{
+    background-color: black;
+}
+.contact span{
+    color: white;
+}
+.contact a{
+    color: white;
+    text-decoration: none;
+}
+.border{
+    border-bottom: 2px solid white;
+    border-width: 100%;
+}
+.request h2{
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+}
+button{
+    background-color: white;
+    color: black;
+}
+/* .sub-head{
+    display: inline;
+    justify-content: space-between;
+} */
+.nav-link{
+    /* text-align: inline-block; */
+    color: black;
+}
+.nav-link:hover{
+    color: white;
+}
+.nav-item{
+    display: inline-block;
+}
+/* .carousel-item img{
+    width: 600px;
+    height: 300px;
+} */
+
+.nav-nav{
+    display: none;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.spoon img{
+    height: 40px;
+    width: 90px;
+    margin: 20px 650px;
+}
+.spoon p{
+    font-size: 25px;
+}
+.about{
+    padding: 30px;
+    background-color: #e3d105;
+}
+.about h1{
+    color: white;
+  }
+.describe{
+    background-color: black;
+    height: 388px;
+    width: 600px;
+    padding: 30px;
+    margin-bottom: 15px;
+}
+.border-right{
+    border-right: 4px solid black;
+}
+.describe h2{
+    color: white;
+}
+.describe p{
+    color: white;
+    font-size: 20px;
+}
+.describe a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.describe a:hover{
+    text-decoration: underline;
+}
+.about{
+    padding: 30px;
+    background-color: #e3d105;
+}
+.about h1{
+    color: white;
+  }
+.carousel-item img{
+    display: inline;
+    height: 200px;
+    width: 200px;
+    margin: 15px 65px;
+}
+.carousel{
+    background-color: black;
+}
+.carousel p{
+    color: white;
+    font-size: 20px;
+}
+carousel span{
+    color: white;
+    font-size: 20px;
+}
+.about{
+    padding: 30px;
+    background-color: #e3d105;
+}
+.about h1{
+  color: white;
+}
+.spoon img{
+    height: 40px;
+    width: 90px;
+    margin: 20px 650px;
+}
+.spoon p{
+    font-size: 25px;
+}
+.position{
+  background-color: black;
+  color: white;
+  width: 100px;
+  height: 70px;
+  padding:  5px 10px;
+  position: absolute;
+  top: 2500px;
+}
+.card{
+  position: relative;
+}
+p {
+    font-family: Lato;
+  }
+  
+  #root {
+    padding: 30px;
+  }
+  
+  .register-form {
+    max-width: 350px;
+    margin: auto;
+  }

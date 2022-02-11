@@ -1,0 +1,24 @@
+.about{
+    padding: 30px;
+    background-color: #e3d105;
+}
+.about h1{
+    color: white;
+  }
+.carousel-item img{
+    display: inline;
+    height: 200px;
+    width: 200px;
+    margin: 15px 65px;
+}
+.carousel{
+    background-color: black;
+}
+.carousel p{
+    color: white;
+    font-size: 20px;
+}
+carousel span{
+    color: white;
+    font-size: 20px;
+}

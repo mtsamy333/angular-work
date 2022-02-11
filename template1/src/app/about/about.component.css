@@ -1,0 +1,40 @@
+.spoon img{
+    height: 40px;
+    width: 90px;
+    margin: 20px 650px;
+}
+.spoon p{
+    font-size: 25px;
+}
+.about{
+    padding: 30px;
+    background-color: #e3d105;
+}
+.about h1{
+    color: white;
+  }
+.describe{
+    background-color: black;
+    height: 388px;
+    width: 600px;
+    padding: 30px;
+    margin-bottom: 15px;
+}
+.border-right{
+    border-right: 4px solid black;
+}
+.describe h2{
+    color: white;
+}
+.describe p{
+    color: white;
+    font-size: 20px;
+}
+.describe a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.describe a:hover{
+    text-decoration: underline;
+}
