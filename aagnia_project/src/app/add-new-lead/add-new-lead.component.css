@@ -73,3 +73,10 @@
     background-color: darkturquoise;
     height: 30px;
 }   
+.section{
+    padding: 40px;
+    background-color: #efefef;
+} 
+.head-row{
+    padding: 0;
+}

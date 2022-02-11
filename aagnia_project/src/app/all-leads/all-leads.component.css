@@ -3,6 +3,9 @@
 }
 .sub-head{
     background-color: white;
+    margin-bottom: 0;
+    /* margin-left: 12px; */
+    padding: 0;
 }
 .sub-head button{
     border: white 1px solid;
@@ -73,3 +76,7 @@
     background-color: darkturquoise;
     height: 30px;
 }   
+/* .section{
+    padding: 40px;
+    background-color: #efefef;
+} */

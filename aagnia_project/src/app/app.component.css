@@ -74,6 +74,9 @@ border-top-right-radius: 40px;
 border-top-left-radius: 40px;
 background-color: lightgray;
 }
+.nav{
+padding-left: 12px;
+}
 .nav-tabs .dark {
 background-color: white;
 border: none;
@@ -100,3 +103,6 @@ border-top-left-radius: 0;
     padding: 40px;
     background-color: #efefef;
 }   
+.container-fluid{
+    padding: 0%;
+}
