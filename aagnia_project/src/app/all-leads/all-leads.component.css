@@ -4,8 +4,8 @@
 .sub-head{
     background-color: white;
     margin-bottom: 0;
-    /* margin-left: 12px; */
     padding: 0;
+    margin-left: 12px;
 }
 .sub-head button{
     border: white 1px solid;
@@ -45,7 +45,6 @@
 .content{
     margin-top: 20px;
 }
-
 .line{
     border-bottom: 1px solid lightgray;
     padding-top: 15px;
@@ -76,7 +75,3 @@
     background-color: darkturquoise;
     height: 30px;
 }   
-/* .section{
-    padding: 40px;
-    background-color: #efefef;
-} */
